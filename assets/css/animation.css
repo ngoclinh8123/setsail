@@ -1,0 +1,123 @@
+/* animation */
+@keyframes lineLonger {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes growth {
+  0% {
+    transform: scaleY(0);
+  }
+  40% {
+    transform: scaleY(1.1);
+  }
+  60% {
+    transform: scaleY(0.9);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: scaleX(0);
+  }
+  60% {
+    transform: scaleX(1.1);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes appearance {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  /* 60% {
+    transform: translateY(-10px);
+  }
+  80% {
+    transform: translateY(5px);
+  } */
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes zoomDouble {
+  0% {
+    transform: scale(1);
+  }
+  90% {
+    transform: scale(1.05);
+  }
+  95% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1.02);
+  }
+}
+
+@keyframes slideUpBlock {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes growthDown {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    height: 0;
+  }
+  to {
+    height: 296px;
+  }
+}
+
+@keyframes short {
+  from {
+    height: 100%;
+  }
+  to {
+    height: 0px;
+  }
+}
